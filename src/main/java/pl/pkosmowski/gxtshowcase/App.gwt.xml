@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='App'>
+    <inherits name='com.google.gwt.user.User' />
+    <inherits name="com.google.common.collect.Collect"/>
+    <inherits name='com.sencha.gxt.ui.GXT' />
+    <stylesheet src="reset.css"/>
+
+    <entry-point class='pl.pkosmowski.gxtshowcase.client.App' />
+    <!--    <generate-with class="pl.pkosmowski.gxtshowcase.gen.ClassAccessorGenerator">
+        <when-type-assignable class="pl.pkosmowski.gxtshowcase.client.editor.ClassAccessor"/>
+    </generate-with>-->
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='App'>
+    <inherits name='com.google.gwt.user.User' />
+    <inherits name="com.google.gwt.logging.Logging"/>
+    <inherits name='pl.pkosmowski.gxtshowcase.App' />
+    <set-property name="gwt.logging.logLevel" value="ALL"/>
+    <set-property name="gwt.logging.popupHandler" value="DISABLED" />
+    <add-linker name="xsiframe"/>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+    <set-property name="compiler.useSourceMaps" value="true" />
+    
+    <collapse-all-properties/>
+</module>
